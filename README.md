@@ -20,11 +20,11 @@ $ bash Server-Status.sh
 
 * HTTP Status Code එක Read කරනවා:උදා÷
 
-• -s = silent.
+• silent.
 
-• -o /dev/null = output discard.
+• output discard.
 
-• -w "%{http_code}" = server එකේ response code එක (e.g., 200, 404, 503) print කරනවා.
+• server එකේ response code එක (e.g., 200, 404, 503) print කරනවා.
 
 * Status Code එකට අනුව Response එක:
 
